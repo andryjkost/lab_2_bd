@@ -12,26 +12,26 @@
 
 # Предметная область БД:
 
-Таблица Orders:
-id - id заказа
-purchase_date - время покупки
-detail_id - id детали
-consumer_id - id покупателя
-quantity - количество деталей
+Таблица Orders:  
+id - id заказа  
+purchase_date - время покупки  
+detail_id - id детали  
+consumer_id - id покупателя  
+quantity - количество деталей  
 
-Таблица Orders Prices:
-id - id цены заказа
-price - цена заказа
+Таблица Orders Prices:  
+id - id цены заказа  
+price - цена заказа  
 
-Таблица Details:
-id - id детали
-name - название детали
-cost - цена детали
+Таблица Details:  
+id - id детали  
+name - название детали  
+cost - цена детали  
 
-Таблица Cunsomers:
-id - id покупателя
-name - имя покупателя
-address - адрес покупателя
+Таблица Cunsomers:  
+id - id покупателя  
+name - имя покупателя  
+address - адрес покупателя  
 
-# Ссылка на видео
+# Ссылка на видео  
 *ссылка*
