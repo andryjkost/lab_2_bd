@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>Shop</class>
+ <widget class="QMainWindow" name="Shop">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1126</width>
-    <height>675</height>
+    <width>1162</width>
+    <height>672</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Shop</string>
   </property>
   <property name="autoFillBackground">
    <bool>true</bool>
@@ -29,6 +29,13 @@
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
       <widget class="QTableWidget" name="ordersTable">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="columnCount">
         <number>7</number>
        </property>
@@ -81,6 +88,17 @@
       <layout class="QHBoxLayout" name="horizontalLayout_3">
        <item>
         <widget class="QPushButton" name="createConsumerButton">
+         <property name="font">
+          <font>
+           <family>Arial Black</family>
+           <pointsize>9</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background: qlineargradient(spread:pad, x1:0, y1:0, x2:0.599333, y2:0.756, stop:0 rgba(0, 0, 214, 255), stop:1 rgba(170, 85, 255, 255));color: white;</string>
+         </property>
          <property name="text">
           <string>Create</string>
          </property>
@@ -104,6 +122,13 @@
      </item>
      <item>
       <widget class="QTableWidget" name="consumersTable">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="columnCount">
         <number>3</number>
        </property>
@@ -140,6 +165,16 @@
       <layout class="QHBoxLayout" name="horizontalLayout_4">
        <item>
         <widget class="QPushButton" name="createDetailButton">
+         <property name="font">
+          <font>
+           <family>Arial Black</family>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background: qlineargradient(spread:pad, x1:0, y1:0, x2:0.599333, y2:0.756, stop:0 rgba(0, 0, 214, 255), stop:1 rgba(170, 85, 255, 255));color: white;</string>
+         </property>
          <property name="text">
           <string>Create</string>
          </property>
@@ -163,6 +198,13 @@
      </item>
      <item>
       <widget class="QTableWidget" name="detailsTable">
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <italic>true</italic>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="rowCount">
         <number>0</number>
        </property>
@@ -209,6 +251,17 @@
       <layout class="QHBoxLayout" name="horizontalLayout_5">
        <item>
         <widget class="QPushButton" name="deleteConsumerButton">
+         <property name="font">
+          <font>
+           <family>Arial Black</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background: qlineargradient(spread:pad, x1:0, y1:0, x2:0.599333, y2:0.756, stop:0 rgba(0, 0, 214, 255), stop:1 rgba(170, 85, 255, 255));color: white;</string>
+         </property>
          <property name="text">
           <string>Delete</string>
          </property>
@@ -216,6 +269,17 @@
        </item>
        <item>
         <widget class="QPushButton" name="searchConsumerButton">
+         <property name="font">
+          <font>
+           <family>Arial Black</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background: qlineargradient(spread:pad, x1:0, y1:0, x2:0.599333, y2:0.756, stop:0 rgba(0, 0, 214, 255), stop:1 rgba(170, 85, 255, 255));color: white;</string>
+         </property>
          <property name="text">
           <string>Search</string>
          </property>
@@ -246,6 +310,17 @@
       <layout class="QHBoxLayout" name="horizontalLayout_6">
        <item>
         <widget class="QPushButton" name="deleteDetailButton">
+         <property name="font">
+          <font>
+           <family>Arial Black</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background: qlineargradient(spread:pad, x1:0, y1:0, x2:0.599333, y2:0.756, stop:0 rgba(0, 0, 214, 255), stop:1 rgba(170, 85, 255, 255));color: white;</string>
+         </property>
          <property name="text">
           <string>Delete</string>
          </property>
@@ -253,6 +328,17 @@
        </item>
        <item>
         <widget class="QPushButton" name="searchDetailButton">
+         <property name="font">
+          <font>
+           <family>Arial Black</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background: qlineargradient(spread:pad, x1:0, y1:0, x2:0.599333, y2:0.756, stop:0 rgba(0, 0, 214, 255), stop:1 rgba(170, 85, 255, 255));color: white;</string>
+         </property>
          <property name="text">
           <string>Search</string>
          </property>
@@ -265,15 +351,18 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>980</x>
-      <y>60</y>
-      <width>111</width>
-      <height>51</height>
+      <x>960</x>
+      <y>50</y>
+      <width>161</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>17</pointsize>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
      </font>
     </property>
     <property name="text">
@@ -289,15 +378,18 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>980</x>
+      <x>960</x>
       <y>350</y>
-      <width>111</width>
+      <width>151</width>
       <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <pointsize>17</pointsize>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
      </font>
     </property>
     <property name="frameShadow">
@@ -347,6 +439,16 @@
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <item>
         <widget class="QPushButton" name="orderDeleteButton">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgb(170, 85, 255);color: white;</string>
+         </property>
          <property name="text">
           <string>Delete</string>
          </property>
@@ -363,6 +465,16 @@
        </item>
        <item>
         <widget class="QPushButton" name="orderSearchButton">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgb(170, 85, 255);color: white;</string>
+         </property>
          <property name="text">
           <string>Search</string>
          </property>
@@ -386,6 +498,15 @@
       <layout class="QGridLayout" name="gridLayout">
        <item row="0" column="1">
         <widget class="QDateTimeEdit" name="purchaseDateCreateOrderDT">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>9</pointsize>
+           <weight>50</weight>
+           <italic>true</italic>
+           <bold>false</bold>
+          </font>
+         </property>
          <property name="readOnly">
           <bool>false</bool>
          </property>
@@ -432,6 +553,16 @@
      </item>
      <item>
       <widget class="QPushButton" name="createOrderButton">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(170, 85, 255);color: white;</string>
+       </property>
        <property name="text">
         <string>Create Record</string>
        </property>
@@ -457,9 +588,15 @@
      <rect>
       <x>470</x>
       <y>30</y>
-      <width>131</width>
+      <width>141</width>
       <height>20</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="text">
      <string>Use current date</string>
@@ -471,9 +608,15 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1126</width>
-     <height>22</height>
+     <width>1162</width>
+     <height>26</height>
     </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:rgb(0, 0, 255);color: white;</string>
    </property>
    <widget class="QMenu" name="menuTable">
     <property name="title">
